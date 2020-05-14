@@ -1,5 +1,7 @@
 package com.javibryan.centros;
 
+import com.javibryan.vistas.VistasAlumno;
+import com.javibryan.vistas.VistasGrupo;
 import java.util.Scanner;
 
 public class Principal {
