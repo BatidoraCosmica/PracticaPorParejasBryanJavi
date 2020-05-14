@@ -1,14 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.javibryan.servicio;
 
-/**
- *
- * @author Usuario
- */
 public class ServicioCentroException {
-    
+    public ServicioCentroException(String msg, Exception e) {
+        super(msg, e);
+    }
+    public ServicioCentroException(String msg) {
+        super(msg);
+    }
 }
